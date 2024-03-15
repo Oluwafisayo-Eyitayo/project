@@ -1,0 +1,76 @@
+body{
+ text-align: center;
+ background-color: rgb(148, 70, 221);
+ padding:  5% 30% 0% 30%;
+ margin: 0%;
+ justify-content: center;
+ align-self: center;
+}
+h1{
+    display: inline-block;
+    position: f;
+    z-index: 10;
+    top:0; 
+    padding: 0 3px;
+    white-space: nowrap;
+    background-image: -webkit-linear-gradient(left,#fff 50%, #eb4e24 50%);
+    background-image: -moz-linear-gradient(left,#fff 50%, #eb4e24 50%);
+    background-image: -o-linear-gradient(left,#fff 50%, #eb4e24 50%);
+    background-image: linear-gradient(right,#fff 50%, #eb4e24 50%);
+}
+h1 span{
+    background-image: -webkit-linear-gradient(left,#fff 50%, #eb4e24 50%);
+    background-image: -moz-linear-gradient(left,#fff 50%, #eb4e24 50%);
+    background-image: -o-linear-gradient(left,#fff 50%, #eb4e24 50%);
+    background-image: linear-gradient(right,#fff 50%, #eb4e24 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+#form{
+    border-color: black;
+    border-style: solid;
+    border-left: 20%;
+    text-align: left;
+}
+#name{
+    margin: 3%;
+}
+#fn{
+    padding: 3%;
+    margin: 1%;
+    margin-left: 0%;
+    width: 90%;
+}
+.label{
+    text-align: left;
+    font-size: 220%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+#select{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin: 0%;
+}
+#country{
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: 0.5cm;
+    padding: 3%;
+}
+#submit{
+    text-align: center;
+    padding: 3%;
+}
+button{
+    padding: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 0.5cm;
+    color: rgb(255, 94, 0);
+    background-color: rgb(85, 42, 165);
+    border-radius: 5cm;
+}
