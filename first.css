@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.area{
+    display: grid;
+    grid-template-areas: 
+    'a b c d e f g h';
+}
+.science{
+    grid-area: a;
+}
+.tech{
+    grid-area: b;
+}
+.acc{
+    grid-area: c;
+}
+.com{
+    grid-area: d;
+}
+.AH{
+    grid-area: e;
+}
+.Fishery{
+    grid-area: f;
+}
+.geo{
+    grid-area: g;
+}
+.history{
+    grid-area: h;
+}
