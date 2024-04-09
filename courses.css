@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    height: fit-content;
+
+}
+
+.area{
+    background-color: bisque;
+    display: grid;
+    grid-template-areas: 
+    'a b c d e f g h';
+    padding: 5%;
+}
+.science{
+    grid-area: a;
+    background-color: black;
+    margin-right: 2%;
+    color:white;
+    text-align: left;
+    padding: 1%;
+}
+.tech{
+    grid-area: b;
+    background-color: black;
+    margin-right: 2%;
+    color:white;
+    text-align: left;
+    padding: 1%;
+}
+.acc{
+    grid-area: c;
+    background-color: black;
+    margin-right: 2%;
+    color:white;
+    text-align: left;
+    padding: 1%;
+}
+.com{
+    grid-area: d;
+    background-color: black;
+    margin-right: 2%;
+    color:white;
+    text-align: left;
+    padding: 1%;
+}
+.AH{
+    grid-area: e;
+    background-color: black;
+    margin-right: 2%;
+    color:white;
+    text-align: left;
+    padding: 1%;
+}
+.Fishery{
+    grid-area: f;
+    background-color: black;
+    margin-right: 2%;
+    color:white;
+    text-align: left;
+    padding: 1%;
+}
+.geo{
+    grid-area: g;
+    background-color: black;
+    margin-right: 2%;
+    color:white;
+    text-align: left;
+    padding: 1%;
+}
+.history{
+    grid-area: h; 
+    background-color: black;
+    margin-right: 2%;
+    color:white;
+    text-align: left;
+    padding: 1%;
+}
+.nav-link{
+    padding: 4%;
+}
+.nav-brand{
+    padding-left: 0%;
+    margin-left: 0%;
+    padding-right: 20%;
+    margin-right: 15%;
+}
