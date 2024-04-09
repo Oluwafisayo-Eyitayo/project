@@ -6,15 +6,17 @@ body{
 
 }
 
-.area{
+.courses{
     background-color: bisque;
-    display: grid;
-    grid-template-areas: 
-    'a b c d e f g h';
+    display: flex;
+    flex-direction: row;
     padding: 5%;
+    flex-basis: 20px;
+    flex-wrap: wrap;
+    flex-flow: row;
+   
 }
 .science{
-    grid-area: a;
     background-color: black;
     margin-right: 2%;
     color:white;
@@ -22,15 +24,6 @@ body{
     padding: 1%;
 }
 .tech{
-    grid-area: b;
-    background-color: black;
-    margin-right: 2%;
-    color:white;
-    text-align: left;
-    padding: 1%;
-}
-.acc{
-    grid-area: c;
     background-color: black;
     margin-right: 2%;
     color:white;
@@ -38,7 +31,6 @@ body{
     padding: 1%;
 }
 .com{
-    grid-area: d;
     background-color: black;
     margin-right: 2%;
     color:white;
@@ -46,15 +38,6 @@ body{
     padding: 1%;
 }
 .AH{
-    grid-area: e;
-    background-color: black;
-    margin-right: 2%;
-    color:white;
-    text-align: left;
-    padding: 1%;
-}
-.Fishery{
-    grid-area: f;
     background-color: black;
     margin-right: 2%;
     color:white;
@@ -62,15 +45,6 @@ body{
     padding: 1%;
 }
 .geo{
-    grid-area: g;
-    background-color: black;
-    margin-right: 2%;
-    color:white;
-    text-align: left;
-    padding: 1%;
-}
-.history{
-    grid-area: h; 
     background-color: black;
     margin-right: 2%;
     color:white;
@@ -78,11 +52,10 @@ body{
     padding: 1%;
 }
 .nav-link{
-    padding: 4%;
+    padding: 2%;
+    margin-right: 6px;
 }
-.nav-brand{
-    padding-left: 0%;
-    margin-left: 0%;
-    padding-right: 20%;
-    margin-right: 15%;
+.brand{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
 }
